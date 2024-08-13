@@ -2,6 +2,6 @@
  (name ppx_embed_file)
  (public_name ppx_embed_file)
  (kind ppx_deriver)
- (libraries core compiler-libs.common ppxlib shell)
+ (libraries core compiler-libs.common ppxlib)
  (preprocess
   (pps ppx_jane ppxlib.metaquot)))

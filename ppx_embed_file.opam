@@ -13,7 +13,6 @@ depends: [
   "ocaml" {>= "5.1.0"}
   "core"
   "ppx_jane"
-  "shell"
   "dune"     {>= "3.11.0"}
   "ppxlib"   {>= "0.28.0"}
 ]
