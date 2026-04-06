@@ -4,4 +4,4 @@
  (kind ppx_deriver)
  (libraries core compiler-libs.common ppxlib)
  (preprocess
-  (pps ppx_jane ppxlib.metaquot)))
+  (pps ppx_jane ppxlib.metaquot -compare-require-explicit-locality)))
