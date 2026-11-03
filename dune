@@ -2,6 +2,8 @@
  (name ppx_embed_file)
  (public_name ppx_embed_file)
  (kind ppx_rewriter)
- (libraries core compiler-libs.common ppxlib)
+ (libraries compiler-libs.common ppxlib ppxlib.stdppx)
  (preprocess
-  (pps ppx_jane ppxlib.metaquot -compare-require-explicit-locality)))
+  (pps ppxlib.metaquot))
+ (lint
+  (pps ppxlib_metaquot ppx_js_style)))

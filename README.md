@@ -1,6 +1,4 @@
-"Ppx_embed_file"
-================
-
+# Ppx_embed_file
 `ppx_embed_file` is a simple PPX that allows embedding files directly into executables as strings or
 bytes so that we can embed files into OCaml programs.
 
